@@ -2,8 +2,8 @@ README: Load Forecasting Thesis Project
 This repository contains all the data, code, and results for the bachelor's thesis on electricity load forecasting. The project is structured to ensure clarity, reproducibility, and easy navigation of the research components.
 
 Directory Structure
-/Users/lionelkoch/load-forecasting-thesis
-├── LICENSE
+```text
+load-forecasting-thesis
 ├── README.md
 ├── appendix
 │   ├── figures
