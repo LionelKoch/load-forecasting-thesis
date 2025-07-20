@@ -3,7 +3,7 @@ This repository contains all the data, code, and results for the bachelor's thes
 
 Directory Structure
 ```text
-load-forecasting-thesis
+load-forecasting-thesis/
 ├── README.md
 ├── appendix
 │   ├── figures
