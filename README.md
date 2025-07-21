@@ -98,3 +98,33 @@ The notebooks in the /notebooks directory should be run in the following sequenc
 /Visualizations/Model Diagnostics and Visualization Notebook.ipynb - To generate the diagnostic plots for the appendix.
 
 The /appendix folder contains the final outputs. Running the notebooks as described will regenerate these files, ensuring the project's results can be fully reproduced.
+
+Setup and Data Download
+This project uses Git LFS (Large File Storage) to manage large data files in the /data directory. To download the full dataset and run the analysis, follow these steps:
+
+1. Install Git LFS
+
+macOS (Homebrew):
+
+brew install git-lfs
+Windows:
+Download and run the installer from git-lfs.com.
+
+Linux (Debian/Ubuntu):
+
+sudo apt-get install git-lfs
+Once installed, run:
+
+git lfs install
+2. Clone the Repository
+
+Clone this repository as usual:
+
+git clone https://github.com/LionelKoch/load-forecasting-thesis.git
+cd load-forecasting-thesis
+If you’ve already cloned the repository but the /data folder is empty, run:
+
+git lfs pull
+After this, all large files in /data will be downloaded and ready for use.
+
+
